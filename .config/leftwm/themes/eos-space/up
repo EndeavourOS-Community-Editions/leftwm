@@ -13,10 +13,10 @@ sxhkd -c ~/.config/leftwm/sxhkd/sxhkdrc &
 
 # diversity of apps to start
 nm-applet &
-pamac-tray &
+#pamac-tray &
 xfce4-power-manager &
 numlockx on &
-blueberry-tray &
+#blueberry-tray &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 volumeicon &
@@ -31,20 +31,15 @@ volumeicon &
 #spotify &
 #atom &
 
-# Boot picom or compton if it exists
+# If picom exists
 if [ -x "$(command -v picom)" ]; then
   picom --config $HOME/.config/leftwm/themes/current/picom.conf &> /dev/null &
-  #picom --config $HOME/.config/leftwm/themes/current/picom.conf --experimental-backends &> /dev/null &
-  #picom &> /dev/null &
-  #picom --experimental-backends &> /dev/null &
-elif [ -x "$(command -v compton)" ]; then
-  compton --config $HOME/.config/leftwm/themes/current/compton.conf &> /dev/null &
 fi
 
 # Set the theme.toml config
 leftwm-command "LoadTheme $SCRIPTPATH/theme.toml"
 
-# Set background
+# Set background if feh exists
 if [ -x "$(command -v feh)" ]; then
   feh --bg-fill "$SCRIPTPATH"/background.jpg
 fi
