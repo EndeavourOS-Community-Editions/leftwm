@@ -66,17 +66,9 @@ super + e
 super + w
     vivaldi-stable
 
-#Conky-toggle
-super + c
-    conky-toggle
-
 #Htop
 super + h
     urxvt -e htop
-
-#Rofi theme selector
-super + r
-    rofi-theme-selector
 
 #Urxvt
 super + t
@@ -85,10 +77,6 @@ super + t
 #Pavucontrol
 super + v
     pavucontrol
-
-#Pragha
-super + m
-    pragha
 
 #urxvt
 super + Return
@@ -133,21 +121,13 @@ super + shift + s
 # CONTROL + ALT KEYS
 #################################################################
 
-#arcolinux-welcome-app
+#eos-welcome --once
 ctrl + alt + w
-     arcolinux-welcome-app
+     eos-welcome --once
 
 #arcolinux-tweak-tool
 ctrl + alt + e
     arcolinux-tweak-tool
-
-#conky-rotate
-ctrl + alt + Next
-     conky-rotate -n
-
-#conky-rotate
-ctrl + alt + Prior
-    conky-rotate -p
 
 #File-Manager
 ctrl + alt + b
@@ -188,10 +168,6 @@ ctrl + alt + m
 #Pulse Audio Control
 ctrl + alt + u
      pavucontrol
-
-#Rofi theme selector
-ctrl + alt + r
-  rofi-theme-selector
 
 #Spotify
 ctrl + alt + s
@@ -264,11 +240,6 @@ alt + F2
 alt + F3
     xfce4-appfinder
 
-#Xlunch app launcher
-#alt + F5
-#    xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv   
-
-
 #################################################################
 #VARIETY KEYS WITH PYWAL
 #################################################################
@@ -301,7 +272,6 @@ alt + shift + u
 ctrl + shift + Escape
     xfce4-taskmanager
 
-
 #################################################################
 #     SCREENSHOTS
 #################################################################
@@ -315,12 +285,12 @@ ctrl + Print
      xfce4-screenshooter
 
 #Gnome-Screenshot
-ctrl + shift + Print
-     gnome-screenshot -i
+#ctrl + shift + Print
+#     gnome-screenshot -i
 
 #Flameshot
-super + ctrl + Print
-    flameshot gui
+#super + ctrl + Print
+#    flameshot gui
 
 #################################################################
 #     MULTIMEDIA KEYS
@@ -337,15 +307,6 @@ XF86AudioLowerVolume
 #Mute
 XF86AudioMute
     amixer -D pulse set Master 1+ toggle
-
-#Playerctl works for Pragha, Spotify and others
-#Delete the line for playerctl if you want to use mpc
-#and replace it with the corresponding code
-#mpc works for e.g.ncmpcpp
-#mpc toggle
-#mpc next
-#mpc prev
-#mpc stop
 
 #PLAY
 XF86AudioPlay
@@ -380,44 +341,9 @@ super + y
     polybar-msg cmd toggle
 
 #################################################################
-#################################################################
-##################   DESKTOP SPECIFIC    ########################
-#################################################################
-#################################################################
-
-#################################################################
 # CTRL + ALT KEYS
 #################################################################
 
 #Picom Toggle
 ctrl + alt + o
     ~/.config/leftwm/scripts/picom-toggle.sh
-
-#################################################################
-# SUPER + KEYS
-#################################################################
-
-#################################################################
-# SUPER KEYS
-#################################################################
-
-#################################################################
-# SUPER + SHIFT KEYS
-#################################################################
-
-#################################################################
-# SUPER + CONTROL KEYS
-#################################################################
-
-#################################################################
-# ALT KEYS
-#################################################################
-
-#################################################################
-# ALT + SHIFT KEYS
-#################################################################
-
-#################################################################
-# CTRL + ALT KEYS
-#################################################################
-

@@ -16,13 +16,17 @@ lightdm
 lightdm-slick-greeter
 lxappearance
 nerd-fonts-source-code-pro
+nitrogen
 numlockx
 picom
+playerctl
 polkit-gnome
 polybar
+python-pywal
 rofi
 rofi-theme-fonts
 rxvt-unicode
+scrot
 sxhkd
 thunar
 thunar-archive-plugin
@@ -33,6 +37,7 @@ ttf-iosevka-nerdttf-material-design-iconic-font
 ttf-material-design-iconic-font
 ttf-meslo-nerd-font-powerlevel10k
 tumbler
+variety
 volumeicon
 xdg-user-dirs-gtk
 xfce4-appfinder
@@ -41,3 +46,5 @@ xfce4-notifyd
 xfce4-screenshooter
 xfce4-taskmanager
 xfce4-terminal
+xorg-xbacklight
+xorg-xkill
