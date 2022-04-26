@@ -31,14 +31,9 @@ sxhkd
 thunar
 thunar-archive-plugin
 thunar-volman
-ttf-fantasque-sans-mono
 ttf-iosevka-nerd
-ttf-iosevka-nerdttf-material-design-iconic-font
-ttf-material-design-iconic-font
-ttf-meslo-nerd-font-powerlevel10k
-tumbler
+ttf-hack
 variety
-volumeicon
 xdg-user-dirs-gtk
 xfce4-appfinder
 xfce4-power-manager
