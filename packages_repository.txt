@@ -1,26 +1,23 @@
-sudo pacman -S --noconfirm alacritty
-sudo pacman -S --noconfirm dmenu
-sudo pacman -S --noconfirm feh
-sudo pacman -S --noconfirm leftwm-dev-git
-sudo pacman -S --noconfirm leftwm-theme-git
-sudo pacman -S --noconfirm lxappearance
-sudo pacman -S --noconfirm nitrogen
-sudo pacman -S --noconfirm numlockx
-sudo pacman -S --noconfirm picom
-sudo pacman -S --noconfirm playerctl
-sudo pacman -S --noconfirm polkit-gnome
-sudo pacman -S --noconfirm polybar
-sudo pacman -S --noconfirm rxvt-unicode
-sudo pacman -S --noconfirm scrot
-sudo pacman -S --noconfirm sxhkd
-sudo pacman -S --noconfirm ttf-iosevka-nerd
-sudo pacman -S --noconfirm ttf-hack
-sudo pacman -S --noconfirm xdg-user-dirs-gtk
-sudo pacman -S --noconfirm xfce4-appfinder
-sudo pacman -S --noconfirm xfce4-power-manager
-sudo pacman -S --noconfirm xfce4-notifyd
-sudo pacman -S --noconfirm xfce4-screenshooter
-sudo pacman -S --noconfirm xfce4-taskmanager
-sudo pacman -S --noconfirm xfce4-terminal
-sudo pacman -S --noconfirm xorg-xbacklight
-sudo pacman -S --noconfirm xorg-xkill
+alacritty
+dmenu
+feh
+leftwm-dev-git
+leftwm-theme-git
+lxappearance
+nitrogen
+numlockx
+picom
+playerctl
+polybar
+rxvt-unicode
+scrot
+sxhkd
+ttf-iosevka-nerd
+ttf-hack
+xfce4-appfinder
+xfce4-power-manager
+xfce4-notifyd
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-terminal
+xorg-xbacklight
