@@ -13,7 +13,6 @@ polybar
 rxvt-unicode
 scrot
 sxhkd
-ttf-iosevka-nerd
 ttf-hack
 xfce4-appfinder
 xfce4-power-manager
