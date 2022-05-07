@@ -3,7 +3,7 @@ A window manager for adventurers -- EndeavourOS setup
 
 packages to be built and available on repo
 
-rom ArcoLinux Repos for now
+from ArcoLinux Repos for now
 
 leftwm-git
 
