@@ -45,7 +45,7 @@ key = "d"
 
 [[keybind]]
 command = "Execute"
-value = "arcolinux-logout"
+value = "archlinux-logout"
 modifier = ["modkey"]
 key = "x"
 

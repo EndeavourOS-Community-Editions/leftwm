@@ -157,9 +157,10 @@ ctrl + alt + k
 ctrl + alt + l
     archlinux-logout
 
+# in Leftwm config
 #archlinux-logout
-super + x
-    archlinux-logout
+#super + x
+#    archlinux-logout
 
 #Pamac-manager
 ctrl + alt + p
