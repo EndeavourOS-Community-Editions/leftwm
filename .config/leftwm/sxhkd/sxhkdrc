@@ -125,9 +125,9 @@ super + shift + s
 ctrl + alt + w
      eos-welcome --once
 
-#arcolinux-tweak-tool
+#archlinux-tweak-tool
 ctrl + alt + e
-    arcolinux-tweak-tool
+    archlinux-tweak-tool
 
 #File-Manager
 ctrl + alt + b
@@ -149,13 +149,13 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#arcolinux-logout
+#archlinux-logout
 ctrl + alt + k
-     arcolinux-logout
+     archlinux-logout
 
-#arcolinux-logout
+#archlinux-logout
 ctrl + alt + l
-    arcolinux-logout
+    archlinux-logout
 
 #Pamac-manager
 ctrl + alt + p
