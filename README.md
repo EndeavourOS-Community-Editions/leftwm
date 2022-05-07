@@ -8,3 +8,5 @@ from AUR
 leftwm-git
 leftwm-theme-git
 archlinux-logout
+
+https://github.com/EndeavourOS-Community-Editions/leftwm
