@@ -7,4 +7,4 @@ from AUR
 
 leftwm-git
 leftwm-theme-git
-arcolinux-logout
+archlinux-logout
