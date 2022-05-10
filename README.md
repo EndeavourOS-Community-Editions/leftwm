@@ -19,7 +19,10 @@ What means you need to add arco package repo or build this packages from the AUR
 https://aur.archlinux.org/packages/leftwm-theme-git
 https://aur.archlinux.org/packages/leftwm-git
 
-archlinux-logout-git is not on AUR for now?
+archlinux-logout-git is not on AUR for now you can find sources here:
+
+https://github.com/arcolinux/archlinux-logout
+
 
 
 
