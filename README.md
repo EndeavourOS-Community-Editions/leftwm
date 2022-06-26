@@ -1,7 +1,7 @@
 # leftwm
 A window manager for adventurers -- EndeavourOS setup
 
-# ---> Not official release for now .. under development 
+# ---> Not official released for now .. under development 
 
 
 packages to be built and available on repo
